@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	font-family:sans-serif;
+}
+.blue-sec{
+	background-color: #3597ff;
+	display: flex;
+	justify-content: center;
+	margin: 0 0 48px 0;
+}
+.align-center{
+	height: 440px;
+	width: 1320px;
+}
+.blue-text{
+	color: white;
+	width: 550px;
+	height: 328px;
+	margin: 48px 0 48px 0;
+	padding: 48px 12px 48px 12px;
+	line-height: 24px;
+	box-sizing: border-box;
+}
+.blue-text h1{
+	font-size: 40px;
+	font-weight: 300;
+	line-height: 48px;
+	margin: 0 0 24px 0;
+}
+.blue-text p{
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 0 16px 0;
+}
+.main-img{
+	width: 543px;
+	height: 418px;
+	top: 22px;
+	bottom: 0;
+	right: 417px;
+	left: 960px;
+	position: absolute;
+}
+.why{
+	height: 184px;
+	width: 1320px;
+	padding: 0 12px 0 12px;
+	text-align: center;
+}
+.why h2{
+	color: #212529;
+	font-size: 40px;
+	line-height: 48px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	margin: 0 0 48px 0;
+	height: 48px;
+	width: 1296px;
+}
+.why p{
+	color: #566b8d;
+	font-size: 16px;
+	line-height: 24px;
+	height: 72px;
+	width: 1200px;
+	margin: 0 48px 16px 48px;
+}
+.box{
+	height: 151px;
+	width: 306px;
+}
+.box h5{
+	height: 24px;
+	width: 306px;
+	font-size: 20px;
+	margin: 0 0 8px 0;
+	color: #212529;
+}
+.box p{
+	height: 42px;
+	width: 306px;
+	font-size: 14px;
+	color: #566b8d;
+}
