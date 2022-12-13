@@ -2,16 +2,23 @@ body{
 	margin: 0;
 	font-family:sans-serif;
 }
+
+b{
+	font-weight: 700;
+}
+
 .blue-sec{
 	background-color: #3597ff;
 	display: flex;
 	justify-content: center;
 	margin: 0 0 48px 0;
 }
+
 .align-center{
 	height: 440px;
-	width: 1320px;
+	width: 1200px;
 }
+
 .blue-text{
 	color: white;
 	width: 550px;
@@ -21,25 +28,28 @@ body{
 	line-height: 24px;
 	box-sizing: border-box;
 }
+
 .blue-text h1{
 	font-size: 40px;
 	font-weight: 300;
 	line-height: 48px;
 	margin: 0 0 24px 0;
 }
+
 .blue-text p{
 	font-size: 16px;
 	line-height: 24px;
 	margin: 0 0 16px 0;
 }
-.main-img{
+.main img{
 	width: 543px;
 	height: 418px;
-	top: 22px;
-	bottom: 0;
-	right: 417px;
-	left: 960px;
-	position: absolute;
+	display: flex;
+}
+.why-sec{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 .why{
 	height: 184px;
@@ -65,6 +75,9 @@ body{
 	width: 1200px;
 	margin: 0 48px 16px 48px;
 }
+.box-flex{
+	display: flex;
+}
 .box{
 	height: 151px;
 	width: 306px;
@@ -81,4 +94,8 @@ body{
 	width: 306px;
 	font-size: 14px;
 	color: #566b8d;
+}
+.box img{
+	height: 45px;
+	width: 45px;
 }
