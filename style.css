@@ -41,10 +41,15 @@ b{
 	line-height: 24px;
 	margin: 0 0 16px 0;
 }
+.main{
+	display: flex;
+	justify-content: flex-end;
+	
+}
 .main img{
 	width: 543px;
 	height: 418px;
-	display: flex;
+	
 }
 .why-sec{
 	display: flex;
